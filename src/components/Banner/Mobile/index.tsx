@@ -1,10 +1,13 @@
-import styles  from './style.module.scss'
+import Link from 'next/link'
+import styles from './style.module.scss'
 
-export function BannerMobile(){
-    return(
+export function BannerMobile() {
+    return (
         <div className={styles.container}>
             <div className={styles.containerButton}>
-                <button>Comprar na pré-venda</button>
+                <Link href={'#by'}>
+                    <button>Comprar na pré-venda</button>
+                </Link>
             </div>
         </div>
     )
