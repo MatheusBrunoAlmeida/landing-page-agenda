@@ -10,7 +10,7 @@ export function SpecialPrize() {
                 <div className={styles.containerTitle}>
                     <h1 className={styles.title}>PRÊMIO ESPECIAL!!!!!</h1>
                     <h1 className={styles.subTitle}>
-                        Compre sua agenda
+                        Compre sua agenda e
                         <br />
                         CARAVANA DOKMOS
                     </h1>
