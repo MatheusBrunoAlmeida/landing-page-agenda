@@ -6,7 +6,7 @@ import Image from 'next/image'
 export function SpecialPrize() {
     return (
         <>
-            <div className={styles.container}>
+            <div className={styles.container} id='by'>
                 <div className={styles.containerTitle}>
                     <h1 className={styles.title}>PRÊMIO ESPECIAL!!!!!</h1>
                     <h1 className={styles.subTitle}>
@@ -37,14 +37,6 @@ export function SpecialPrize() {
                         * o sorteio será feito em live diretamente da chácara do 9 bilhões
                         
                     </span>
-                </div>
-
-                <div className={styles.containerButton}>
-                    <button>
-                        <Image src={fireGif} alt="" width={30}/>
-                        COMPRAR AGORA
-                        <Image src={fireGif} alt="" width={30}/>
-                    </button>
                 </div>
             </div>
         </>

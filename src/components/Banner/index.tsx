@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { BannerMobile } from './Mobile'
 import styles from './style.module.scss'
 
@@ -6,7 +7,9 @@ export function Banner() {
         <>
             <div className={styles.container}>
                 <div className={styles.containerButton}>
-                    <button>Comprar na pré-venda</button>
+                    <Link href={'#by'}>
+                        <button>Comprar na pré-venda</button>
+                    </Link>
                 </div>
             </div>
             <BannerMobile />

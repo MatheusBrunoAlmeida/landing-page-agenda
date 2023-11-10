@@ -78,9 +78,14 @@
         border-radius: 8px;
         font-family: 'Road Rage', sans-serif;
         font-size: 3rem;
+        cursor: pointer;
 
         @media(max-width: 419px){
             font-size: 2rem;
+        }
+
+        &:hover{
+            background-color: rgb(255, 185, 20)
         }
     }
 }
@@ -92,4 +97,4 @@
   
     to {
     }
-  }
+}
