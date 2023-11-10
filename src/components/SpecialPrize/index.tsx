@@ -10,7 +10,7 @@ export function SpecialPrize() {
                 <div className={styles.containerTitle}>
                     <h1 className={styles.title}>PRÊMIO ESPECIAL!!!!!</h1>
                     <h1 className={styles.subTitle}>
-                        Na compra de 10 agendas concorra a uma
+                        Compre sua agenda
                         <br />
                         CARAVANA DOKMOS
                     </h1>
@@ -18,9 +18,11 @@ export function SpecialPrize() {
 
                 <div className={styles.containerDescription}>
                     <span>
-                        Na compra da sua agenda, sua localidade concorre a uma caravana Dokmos Sede para sua Localidade
+                        REGRAS:
                         <br/>
-                        Caravana com:
+                        A cada 10 agendas, a localidade tem uma chance de concorrer à:
+                        <br/>
+                        Uma Caravana Dokmos com:
                         <br/>
                         Louvor Dokmos sede
                         <br/>
@@ -30,11 +32,10 @@ export function SpecialPrize() {
                         <br/>
                         IMS
                         <br/>
-                        Regras:
-                        <br/>
-                        * a localidade deve ter comprado pelo menos 10 agendas no total. Cada compra é uma chance de concorrer!
+                        & MUITO MAIS
                         <br/>
                         * o sorteio será feito em live diretamente da chácara do 9 bilhões
+                        
                     </span>
                 </div>
 
