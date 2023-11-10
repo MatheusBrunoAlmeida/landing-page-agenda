@@ -1,0 +1,50 @@
+.container{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+
+    @media(max-width: 368px){
+        padding: 1.5rem;
+    }
+}
+
+.title{
+    font-family: 'Oswald', sans-serif;
+    font-size: 4rem;
+
+    @media(max-width: 481px){
+        font-size: 2rem;
+    }
+
+    @media(max-width: 392px){
+        font-size: 1.8rem;
+    }
+}
+
+.titleOrange{
+    font-family: 'Oswald', sans-serif;
+    font-size: 3rem;
+    font-size: 4rem;
+    color: #F85C05;
+
+    @media(max-width: 481px){
+        font-size: 2rem;
+    }
+
+    @media(max-width: 392px){
+        font-size: 1.8rem;
+    }
+}
+
+.description{
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 1.3rem;
+
+    @media(max-width: 481px){
+        font-size: 1rem;
+    }
+}
